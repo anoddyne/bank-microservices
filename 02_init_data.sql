@@ -39,21 +39,14 @@ INSERT INTO accounts.account_types (id, description, name) VALUES
                                                                ('dddddddd-dddd-dddd-dddd-dddddddddddd', 'Credit account', 'CREDIT');
 
 INSERT INTO accounts.currencies (id, code, name, symbol) VALUES
-                                                             ('11111111-1111-1111-1111-111111111111', 'RUB', 'Russian Ruble', '₽'),
-                                                             ('22222222-2222-2222-2222-222222222222', 'USD', 'US Dollar', '$'),
-                                                             ('33333333-3333-3333-3333-333333333333', 'EUR', 'Euro', '€'),
-                                                             ('44444444-4444-4444-4444-444444444444', 'GBP', 'British Pound', '£'),
-                                                             ('55555555-5555-5555-5555-555555555555', 'JPY', 'Japanese Yen', '¥'),
-                                                             ('66666666-6666-6666-6666-666666666666', 'CNY', 'Chinese Yuan', '¥'),
-                                                             ('77777777-7777-7777-7777-777777777777', 'CHF', 'Swiss Franc', 'CHF'),
-                                                             ('88888888-8888-8888-8888-888888888888', 'KZT', 'Kazakh Tenge', '₸');
+                                                             ('11111111-1111-1111-1111-111111111111', 'RUB', 'Russian Ruble', '₽');
 
 INSERT INTO accounts.accounts (id, account_number, account_status, balance, created_at, created_by, owner_id, owner_type, updated_at, updated_by, version, account_type_id, currency_id) VALUES
                                                                                                                                                                                              ('fb226e43-b9ea-49d7-9147-980c3ebc503b', '40817810000000000001', 'ACTIVE', 10500.25,
                                                                                                                                                                                               '2026-07-01 17:50:58.19505', 'system',
                                                                                                                                                                                               'b0000000-0000-0000-0000-000000000001', 'INDIVIDUAL',
                                                                                                                                                                                               '2026-07-01 17:50:58.19505', 'system', 0,
-                                                                                                                                                                                              'aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa', '22222222-2222-2222-2222-222222222222'),
+                                                                                                                                                                                              'aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa', '11111111-1111-1111-1111-111111111111'),
                                                                                                                                                                                              ('241b093f-366e-4f3f-845c-76f604a010f4', '40817810000000000002', 'ACTIVE', 9800000.00,
                                                                                                                                                                                               '2026-07-01 17:50:58.19505', 'system',
                                                                                                                                                                                               'b0000000-0000-0000-0000-000000000004', 'CORPORATE',
